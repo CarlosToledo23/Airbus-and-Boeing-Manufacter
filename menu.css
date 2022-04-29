@@ -1,0 +1,43 @@
+body {
+background-color: azure;
+text-align: center;
+}
+.nav,ul{
+list-style-type: none;
+}
+h1 {
+text-align: center;
+}
+.nav li a{
+background-color: peachpuff;
+color: purple;
+padding: 10px 12px;
+display: block;
+}
+.nav li ul{
+display: none;
+position: absolute;
+min-width: 140px;
+}
+.nav li ul li ul{
+right: -140px;
+top: 0px;
+}
+.nav li ul li{
+position: relative;
+}
+.nav >li{
+float: left;
+}
+#menu{
+margin: auto;
+width: 500px;
+font-family: cursive;
+}
+.nav li:hover>ul{
+display: block;
+}
+*{
+margin: 0px;
+padding: 0px;
+}
